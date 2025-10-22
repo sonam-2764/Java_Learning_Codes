@@ -24,7 +24,7 @@ public class static_variable {
 
         obj1.show();
         obj2.show();
-
-
+        //static method L-38 study again
+        //static block L-39 study again
     }
 }

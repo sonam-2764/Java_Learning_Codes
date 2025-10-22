@@ -2,7 +2,11 @@ class Human{
     //private int age =11;
     private int age;
     private String name = "sonam";
+
+
     //private let you access the data in same class but if we want to fetch data outside class we need to use method
+
+    
     public int getAge(){//method getAge
         return age;
     }
@@ -21,6 +25,6 @@ public class encapsulation{
         Human obj = new Human();
         obj.SetAge(30);
         System.out.println(obj.getName() + " : " + obj.getAge());
-        
+        //this keyword refers to the curent object which is call the age(variable)
     }
 }

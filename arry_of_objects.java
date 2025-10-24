@@ -18,7 +18,7 @@ public class arry_of_objects {
         Student s3 = new Student();
         s3.rollno = 3;
         s3.name = "neha";
-        s3.marks = 76;
+        s3.marks = 78;
 
         Student students[]= new Student[3];
         students[0]= s1;

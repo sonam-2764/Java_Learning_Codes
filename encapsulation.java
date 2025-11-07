@@ -25,6 +25,6 @@ public class encapsulation{
         Human obj = new Human();
         obj.SetAge(30);
         System.out.println(obj.getName() + " : " + obj.getAge());
-        //this keyword refers to the curent object which is call the age(variable)
+        //this keyword refers to the curent object which is call the age ( variable )
     }
 }

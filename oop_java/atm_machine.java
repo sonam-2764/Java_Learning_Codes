@@ -34,7 +34,7 @@ class ATM{
                 depositMoney();
             }
             else if(opt == 4){
-                break;
+                return;
             }
             else {
                 System.out.println("Enter a valid choice");
@@ -59,9 +59,17 @@ class ATM{
             menu();
         }
 
+        public void depositMoney(){
+            System.out.println("enter the amount to deposit");
+            Scanner sc = new Scanner(System.in);
+            float amount = sc.nextFloat();
+            Balance += amount;
+            System.out.println("money deposited successfully");
+            menu();
+        }
         
     }
-}
+
 
 public class atm_machine {
     public static void main(String[] args) {

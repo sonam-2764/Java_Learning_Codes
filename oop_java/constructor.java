@@ -22,7 +22,7 @@ class Student{
 public class constructor {
     public static void main(String[] args) {
         Student obj1 = new Student();
-        Student obj2 = new Student(10, "sonam", 20);1
+        Student obj2 = new Student(10, "sonam", 20);
         Student obj = new Student(4, 20);//object creation
         // this will run automatically without calling the function Student
         //because constructor gets automatically called just the method name should be same as class name

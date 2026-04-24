@@ -3,6 +3,7 @@ import java.util.*;
 class ATM{
     float Balance; 
     int PIN = 5674;
+    //ATM(){ code of checkpin here} //using constuctor
     public void checkpin(){
         System.out.println("Enter your PIN");
         Scanner sc = new Scanner(System.in);
@@ -74,6 +75,6 @@ class ATM{
 public class atm_machine {
     public static void main(String[] args) {
         ATM obj = new ATM();
-        obj.checkpin();
+        obj.checkpin();// no need of this line using constructor
     }
 }

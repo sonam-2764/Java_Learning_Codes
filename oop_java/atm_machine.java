@@ -11,7 +11,7 @@ class ATM{
             menu();
         }
         else{ System.out.println("Enter a valid pin");
-
+            menu();
         }
     }
         public void menu(){
@@ -73,6 +73,7 @@ class ATM{
 
 public class atm_machine {
     public static void main(String[] args) {
-        
+        ATM obj = new ATM();
+        obj.checkpin();
     }
 }

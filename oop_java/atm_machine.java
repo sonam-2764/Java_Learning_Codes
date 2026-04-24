@@ -45,6 +45,20 @@ class ATM{
             System.out.println("Balance is "+ Balance);
             menu();
         }
+        public void withdrawMoney(){
+            System.out.println("Enter amount to withdraw");
+            Scanner sc = new Scanner(System.in);
+            float amount = sc.nextFloat();
+            if(amount > Balance){
+                System.out.println("Insufficient Balance");
+            }
+            else{
+                Balance -= amount;
+                System.out.println("Money withdrawl succesful");
+            }
+            menu();
+        }
+
         
     }
 }

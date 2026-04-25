@@ -75,6 +75,6 @@ class ATM{
 public class atm_machine {
     public static void main(String[] args) {
         ATM obj = new ATM();
-        obj.checkpin();// no need of this line using constructor
+        obj.checkpin();// no need of this line using constructor 
     }
 }

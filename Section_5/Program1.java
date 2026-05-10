@@ -1,5 +1,5 @@
 package Section_5;
-//example
+//example program
 public class Program1 {
     public static void main(String[] args) {
         boolean gameOver = true;

@@ -22,6 +22,6 @@ public class introduction {
 }
 // class is the blueprint of object
 //object refers to behaviour or properties
-//object is real world entity
+//object is a real world entity
 
-//oop is important to store large amount of data ,code reusability, secure , 
+//oop is important to store large amount of data ,promotes code reusability, secure , 

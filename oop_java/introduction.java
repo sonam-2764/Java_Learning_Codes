@@ -24,4 +24,4 @@ public class introduction {
 //object refers to behaviour or properties
 //object is a real world entity
 
-//oop is important to store large amount of data ,promotes code reusability, secure , 
+//oop is important to store large amount of data ,promotes code reusability, secure ,allows control access 

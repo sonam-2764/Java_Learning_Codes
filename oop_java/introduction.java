@@ -25,3 +25,5 @@ public class introduction {
 //object is a real world entity
 
 //oop is important to store large amount of data ,promotes code reusability, secure ,allows controlled access about which data to be shown which to be hidden
+
+//oops is feature of java
